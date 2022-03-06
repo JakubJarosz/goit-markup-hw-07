@@ -14,9 +14,13 @@
 }
 
 .close-btn__svg {
-  width: 17px;
-  height: 17px;
+  width: 11px;
+  height: 11px;
   text-align: center;
+  background-image: url(/images/moduaicons/closebtn.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
 }
 
 .close-btn {
@@ -27,6 +31,8 @@
   cursor: pointer;
   right: 8px;
   top: 8px;
+  width: 30px;
+  height: 30px;
 }
 
 .form-group__title {
@@ -115,7 +121,7 @@ textarea:focus {
   content: "";
   width: 16px;
   height: 16px;
-  border: 3px solid var(--color-8);
+  border: 2px solid var(--color-8);
   border-radius: 4px;
   margin-right: 9px;
 }
@@ -126,7 +132,7 @@ textarea:focus {
 
 .checkbox:checked + .checkbox__rules::before {
   background-color: var(--main-color);
-  border: 3px solid var(--main-color);
+  border: 2px solid var(--main-color);
   background-image: url(../images/moduaicons/checked.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;

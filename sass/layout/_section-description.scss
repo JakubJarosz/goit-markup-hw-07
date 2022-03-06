@@ -1,4 +1,4 @@
-.description {
+.description__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,45 +14,6 @@
   background-color: #f5f4fa;
 }
 
-
-.whatwedo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  padding-bottom: 94px;
-}
-
-.whatwedo__item {
-  position: relative;
-}
-
-.application__item {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-8);
-  padding-top: 27px;
-}
-
-.application {
-  background: rgba(47, 48, 58, 0.8);
-  height: 70px;
-  width: 370px;
-  position: absolute;
-  z-index: 3;
-  bottom: 0px;
-}
-
-.information .cointaner .h2 {
-  margin-bottom: 50px;
-  margin-top: 100px;
-}
 
 .description__spanup {
   margin-top: 30px;
