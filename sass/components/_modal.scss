@@ -16,11 +16,12 @@
 .close-btn__svg {
   width: 11px;
   height: 11px;
-  text-align: center;
+  justify-content: center;
   background-image: url(../images/moduaicons/closebtn.svg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  
+  position: absolute;
+  top: 26%;
+  left: 27%;
 }
 
 .close-btn {
