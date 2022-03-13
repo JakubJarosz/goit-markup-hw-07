@@ -554,7 +554,7 @@ textarea:focus {
   fill: var(--color-7);
 }
 
-.footer .cointaner .middlefooter .social-media {
+.footer .cointaner .footer__middlefooter .social-media {
   margin-top: 20px;
 }
 
@@ -572,20 +572,20 @@ textarea:focus {
   background-color: var(--color-11);
 }
 
-.middlefooter {
+.footer__middlefooter {
   margin-left: 70px;
 }
 
-.location {
+.address__list {
   margin-top: 20px;
   padding-bottom: 60px;
 }
 
-.location__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.location__link {
+.address__link {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -596,7 +596,7 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
 
-.location__link:hover, .location__link:focus {
+.address__link:hover, .address__link:focus {
   color: var(--color-7);
 }
 
@@ -612,7 +612,7 @@ textarea:focus {
   color: var(--color-6);
 }
 
-.signin-title {
+.footer__signin-title {
   margin-top: 72px;
   margin-left: 78px;
   margin-bottom: 20px;
@@ -624,7 +624,7 @@ textarea:focus {
   color: var(--color-6);
 }
 
-.signin__input {
+.footer__signin-input {
   height: 50px;
   width: 358px;
   margin-left: 78px;
@@ -639,12 +639,12 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
 
-.signin__input:hover, .signin__input:focus {
+.footer__signin-input:hover, .footer__signin-input:focus {
   outline: none;
   border-color: var(--main-color);
 }
 
-.signin__input::placeholder {
+.footer__signin-input::placeholder {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
@@ -661,7 +661,7 @@ textarea:focus {
   fill: var(--color-6);
 }
 
-.signin {
+.footer__signin {
   display: flex;
 }
 
